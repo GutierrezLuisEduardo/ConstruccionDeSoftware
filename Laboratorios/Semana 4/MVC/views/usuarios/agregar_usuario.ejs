@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <%- include('./../css.ejs') %>
+</head>
+<body>
+    <h1><%= title %></h1>
+
+    <form action="/usuarios/agregar_usuario" method="POST">
+        <label for="nombre">Nombre del usuario:</label><br>
+        <input type="text" id="nombre" name="nombre" required placeholder="Nombre del usuario">
+        <br><br>
+        <button type="submit">Agregar Usuario</button>
+    </form>
+
+    <a href="/usuarios/obtener_usuarios">Ver todos los usuarios</a>
+</body>
+</html>

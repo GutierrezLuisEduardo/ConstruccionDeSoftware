@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <%- include('./../css.ejs') %>
+</head>
+<body>
+    <h1><%= title %></h1>
+
+    <form action="/usuarios/eliminar_usuario" method="POST">
+        <label for="id">ID del usuario:</label><br>
+        <input type="text" id="id" name="id" required placeholder="ID del usuario">
+        <br><br>
+        <button type="submit">Eliminar Usuario</button>
+    </form>
+
+    <a href="/usuarios/obtener_usuarios"> Ver todos los usuarios</a>
+</body>
+</html>
