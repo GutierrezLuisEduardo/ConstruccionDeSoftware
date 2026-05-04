@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Luis Eduardo | Desarrollador Web</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div id="logo" class="logo">Luis<span>Eduardo</span></div>
+                <ul class="nav-links">
+                    <li><a href="#hero">Inicio</a></li>
+                    <li><a href="#features">Habilidades</a></li>
+                    <li><a href="#reflexion">Reflexión</a></li>
+                    <li><a href="mailto:a01707310@tec.mx">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1>Hola, soy <span class="highlight">Luis Eduardo</span></h1>
+                <p class="subtitle">Estudiante de ITC, apasionado por el desarrollo de software.</p>
+                <a href="#features" class="btn">Ver mis Habilidades</a>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <h2 class="section-title">Habilidades y Tecnologías</h2>
+                <div class="cards">
+                    <div class="card">
+                        <h3>HTML + CSS</h3>
+                        <p>Construyo interfaces responsivas aplicando box model.</p>
+                    </div>
+                    <div class="card">
+                        <h3>JavaScript</h3>
+                        <p>Desarrollo interactividad y lógica del lado del cliente para crear experiencias dinámicas.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Diseño Responsivo</h3>
+                        <p>Experiencia mobile-first con media queries y unidades relativas (rem, % y vh) al viewpot.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="reflexion" class="reflexion">
+            <div class="container">
+                <h2 class="section-title">Reflexión sobre CSS</h2>
+
+                <div class="faq">
+                    <div class="faq-item">
+                        <h4>¿Cuál es la diferencia entre padding y margin?</h4>
+                        <p>El padding se trata del espacio interno entre el contenido y el borde del elemento; En cambio, el margin se trata de el espacio externo entre el borde de un elemento y los elementos adyacentes.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>¿Por qué se recomienda usar box-sizing: border-box?</h4>
+                        <p>Porque incluye el padding y el border dentro del ancho y alto total del elemento. Esto evita que el tamaño del elemento crezca inesperadamente al agregar padding o bordes, haciendo el diseño mucho más predecible.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>¿Qué significa diseñar con enfoque mobile-first?</h4>
+                        <p>Significa que la escritura de estilos se hace en torno, y priorizando, a los dipositivos móviles; para considerar tabletas y desktop, pueden utilizarse media queries.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>¿En qué situaciones preferirías rem sobre px?</h4>
+                        <p>Prefiero rem cuando quiera mis tipogrfías, espaciados y demás tamaños, relativos al tamaño de fuente del root.
+                        Así se adecúa al tamaño de texto del usuario y facilita el escalado en accesibilidad.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; Luis Eduardo Gutiérrez Chavarría - A01707310</p>
+                <p>Construcción de Software y Toma de Decisiones</p>
+            </div>
+        </footer>
+    </body>
+</html>
