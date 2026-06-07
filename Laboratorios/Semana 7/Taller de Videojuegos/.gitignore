@@ -1,0 +1,5 @@
+node_modules
+salida.txt
+./listar_archivos.sh
+package_lock.json
+package.json

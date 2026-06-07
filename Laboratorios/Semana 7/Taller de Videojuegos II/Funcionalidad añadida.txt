@@ -1,0 +1,4 @@
+El rectángulo del vehículo ahora cambia su tonalidad conforme el juego sigue en marcha.
+
+Video:
+https://youtu.be/85bfZDNy30s

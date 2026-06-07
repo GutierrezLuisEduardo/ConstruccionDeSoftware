@@ -1,0 +1,1 @@
+Ahora la velocidad de los autos y del fondo, aumentarán cada 10 segundos por 50, cambio notable en la velocidad mostrada en pantalla.
